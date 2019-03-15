@@ -105,11 +105,11 @@ body {
 	color: $pink;
 	text-decoration: none;
 	border-bottom: 1px dotted $pink;
+	transition: 0.3s ease-in-out;
 	
 	&:hover {
 		color: white;
 		text-decoration: none;
-		transition: 0.3s ease-in-out;
 	}
 }
 
@@ -228,7 +228,7 @@ body {
 	
 	.paragraph__diamond-section {
 		margin-top: 30px;
-		margin-right: 70px;
+		margin-right: 60px;
 		margin-bottom: 5px;
 		padding: 0;
 		transform: rotate(-45deg);
@@ -272,10 +272,11 @@ body {
 	color: $navy;
 	text-decoration: underline;
 	letter-spacing: 1px;
+	transition: 0.3s ease-in-out;
+
 	
 	&:hover {
 		letter-spacing: 2px;
-		transition: 0.5s ease-in-out;
 		color: $navy;
 	}
 }
@@ -309,10 +310,11 @@ body {
 			padding: 0;
 			transform: rotate(0);
 			letter-spacing: 1px;
+			transition: 0.3s ease-in-out;
+
 			
 			&:hover {
 				letter-spacing: 2px;
-				transition: 0.5s ease-in-out;
 				color: white;
 			}
 		}
@@ -326,11 +328,12 @@ body {
 	color: $navy;
 	text-decoration: none;
 	border-bottom: 1px dotted $navy;
+	transition: 0.3s ease-in-out;
+
 	
 	&:hover {
 		color: white;
 		text-decoration: none;
-		transition: 0.3s ease-in-out;
 	}
 }
 
@@ -385,6 +388,7 @@ hr {
 
 .map {
 	width: 90%;
+	max-width: 650px;
 	margin: 0 auto;
 	padding: {
 		top: 150px;
